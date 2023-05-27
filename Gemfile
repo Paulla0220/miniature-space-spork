@@ -31,6 +31,10 @@ gem "jbuilder"
 
 gem 'activeadmin'
 
+  gem 'devise'
+
+  gem 'sassc'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
@@ -61,10 +65,6 @@ group :development do
   gem "solargraph"
 
   gem "erb_lint"
-
-  gem 'devise'
-
-  gem 'sassc'
   
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"

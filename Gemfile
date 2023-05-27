@@ -29,6 +29,8 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+gem 'activeadmin'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
@@ -61,8 +63,6 @@ group :development do
   gem "erb_lint"
 
   gem 'devise'
-
-  gem 'activeadmin'
 
   gem 'sassc'
   

@@ -75,6 +75,7 @@ group :development do
   gem "hotwire-livereload", "~> 1.2"
 end
 
+
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"

@@ -35,6 +35,8 @@ gem 'activeadmin'
 
   gem 'sassc'
 
+  gem 'spring-commands-rspec'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 

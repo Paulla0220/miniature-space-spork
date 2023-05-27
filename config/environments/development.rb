@@ -33,6 +33,11 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
+  config.after_initialize do
+    ActiveRecord::Base.connection.migration_context.migrate
+  end
+  
+
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :local
 
@@ -81,4 +86,6 @@ Rails.application.configure do
   config.hosts << pf_host
 
   config.action_cable.allowed_request_origins = ["https://#{pf_host}"]
+
+  
 end
